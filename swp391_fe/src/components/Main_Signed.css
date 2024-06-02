@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto:wght@300;400;500;900&display=swap');
+
+.main-signed-state {
+    background-color: #922121;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.main-signed-state .overlap-wrapper {
+    background-color: rgba(250, 250, 250, 1);
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+}
+
+.main-signed-state .overlap {
+    height: 100vh;
+    left: -1px;
+    position: relative;
+    top: -1px;
+    width: 100vw;
+}
+
+.main-signed-state .main-layout {
+    width: 84vw;
+    align-items: flex-start;
+    display: inline-flex;
+    gap: 2vw;
+    height: 100vh;
+    left: 16vw;
+    padding: 2.5vh 2vw;
+    position: absolute;
+    top: 8.5vh;
+}

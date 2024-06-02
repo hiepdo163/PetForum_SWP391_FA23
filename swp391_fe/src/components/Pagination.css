@@ -1,0 +1,13 @@
+.pagination {
+
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.pagination li {
+    --bs-pagination-hover-color: #763907;
+    --bs-pagination-color: #fd7e14;
+    --bs-pagination-active-bg: #fd7e14;
+    --bs-pagination-active-border-color: #fd7e14;
+}

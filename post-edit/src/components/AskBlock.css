@@ -1,0 +1,140 @@
+/* Style for the AskBlock */
+.AskBlock {
+    height: 562px;
+    width: 700px;
+    margin-right: 45px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: white;
+    box-shadow: 2px 1px 5px rgba(0, 0, 0, 0.15);
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: baseline;
+    gap: 20px;
+    display: inline-flex;
+    border-radius: 5px;
+  }
+  
+  
+  /* Style for ChooseCategories */
+  .ChooseCategories {
+    color: #808080;
+    font-size: 26px;
+    font-family: 'Roboto';
+    font-weight: 500px;
+    letter-spacing: 0.65;
+    word-wrap: break-word;
+    width: 100%;
+  }
+  
+  .TypeCatchingAttentionTitle{
+    color: black;
+    font-size: 25px;
+    font: bold;
+    font-family: 'Roboto';
+    font-weight: 700px;
+    letter-spacing: 0.65;
+    word-wrap: break-word;
+    width: 100%;
+    height: 50px;
+  }
+  
+  .TypeYourQuestion{
+    color: #808080;
+    font-size: 18px;
+    text-align: left ;
+    font-family: 'Roboto';
+    font-weight: 500px;
+    letter-spacing: 0.65;
+    word-wrap: break-word;
+    width: 100%;
+    height: 400px;
+  }
+
+  .Frame3 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  
+  .Group8 {
+    width: 600px;
+    height: 30px;
+    left: 400px;
+    top: 0;
+    position: relative;
+  }
+  
+  .Button {
+    width: 113px;
+    height: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background: #EAEAEA;
+    border-radius: 5px;
+    overflow: hidden;
+    display: inline-flex;
+    gap: 12px;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .SaveAsDraft {
+    color: #808080;
+    font-size: 12px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    letter-spacing: 0.24px;
+    word-wrap: break-word;
+  }
+  
+  .Group8 .Button:nth-child(2) {
+    width: 108px;
+    left: 120px;
+    opacity: 0.50;
+    background: #F48023;
+  }
+  
+  .Send {
+    width: 13px;
+    height: 13px;
+    position: relative;
+  }
+  
+  .Publish {
+    color: white;
+    font-size: 12px;
+    font-family: 'Roboto';
+    font-weight: 900;
+    letter-spacing: 0.24px;
+    word-wrap: break-word;
+  }
+  
+  .Button:last-child {
+    height: 30px;
+    opacity: 0.80;
+    background: #1682FD;
+  }
+  
+  .Image {
+    width: 13px;
+    height: 13px;
+    position: relative;
+  }
+  
+  .AddImage {
+    color: white;
+    font-size: 12px;
+    font-family: 'Roboto';
+    font-weight: 900;
+    letter-spacing: 0.24px;
+    word-wrap: break-word;
+  }
+  

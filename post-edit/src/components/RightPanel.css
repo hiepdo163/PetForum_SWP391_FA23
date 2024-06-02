@@ -1,0 +1,114 @@
+/* Style for RightPanel */
+.RightPanel {
+  width:300px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: white;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px #eaeaea solid;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 40px;
+  display: flex;
+}
+
+/* Style for PanelSection */
+.PanelSection {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  display: flex;
+}
+
+/* Style for PanelTitle */
+.PanelTitle {
+  width: 230px;
+  height: 28px;
+  position: relative;
+}
+.Group1 {
+  width: 128px;
+  height: 18px;
+  left: 0;
+  top: 0;
+  position: absolute;
+}
+
+/* Style for Group1 inside PanelTitle */
+.PanelTitle .Group1 {
+  width: 128px;
+  height: 18px;
+  left: 0;
+  top: 0;
+  position: absolute;
+}
+
+/* Style for Line1 */
+.PanelTitle .Line1 {
+  width: 230px;
+  height: 0;
+  left: 0;
+  top: 28px;
+  position: absolute;
+  border: 1px #eaeaea solid;
+}
+.Star {
+  width: 18px;
+  height: 18px;
+  left: 0;
+  top: 0;
+  position: absolute;
+}
+.LinkIcon {
+  width: 18px;
+  height: 18px;
+  left: 0;
+  top: 0;
+  position: absolute;
+}
+.Title1 {
+  left: 24px;
+  top: 1px;
+  position: absolute;
+  color: black;
+  font-size: 13px;
+  font-family: Roboto;
+  font-weight: 400px;
+  letter-spacing: 0.65px;
+  word-wrap: break-word;
+}
+
+/* Style for Links */
+.Links {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+  display: inline-flex;
+}
+
+/* Style for Link */
+.Link {
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: inline-flex;
+}
+
+/* Style for link text */
+.Link > .link {
+  width: 213px;
+  color: #1682fd;
+  text-align: left;
+  font-size: 11px;
+  font-family: "Roboto";
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0.33;
+  word-wrap: break-word;
+}

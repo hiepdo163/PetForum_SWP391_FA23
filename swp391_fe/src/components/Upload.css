@@ -1,0 +1,16 @@
+.details {
+    display: flex;
+    flex-direction: column;
+}
+
+.description {
+    height: 10em;
+}
+
+.btn-modal {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+

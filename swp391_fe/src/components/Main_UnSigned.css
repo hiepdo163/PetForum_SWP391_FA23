@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto:wght@300;400;500;900&display=swap");
+
+.main-layout {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  height: 100%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  justify-content: space-between;
+}

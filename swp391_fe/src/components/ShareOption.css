@@ -1,0 +1,46 @@
+.share-manual {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.share-manual input {
+  width: 90%;
+  border: 1px solid grey;
+  border-radius: 5px;
+  height: 3rem;
+}
+
+.share-manual button {
+  width: 20%;
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.share-manual button:hover {
+  background-color: #4a785f;
+  color: white;
+  border: transparent;
+  /* transition: cubic-bezier(0.075, 0.82, 0.165, 1); */
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+.share-body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-content: center;
+}
+
+.icon-body {
+  padding: 0.75rem !important;
+  margin-bottom: 1rem;
+}
+.circle{
+  box-shadow: none;
+}
+.circle:hover{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}

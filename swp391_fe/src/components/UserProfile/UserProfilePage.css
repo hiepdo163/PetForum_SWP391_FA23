@@ -1,0 +1,174 @@
+/* .row {
+    height: 100% !important;
+} */
+
+.con {
+  height: fit-content !important;
+  display: flex;
+  align-items: center;
+  margin-bottom: 2%;
+}
+
+.body-con {
+  height: 90% !important;
+  padding-top: calc(var(--bs-gutter-x) * 1);
+  padding-bottom: calc(var(--bs-gutter-x) * 1);
+}
+
+.css-jgkpi1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin: 0;
+  padding-top: 40px;
+  /* color: white !important; */
+  background: white !important;
+  width: 100% !important;
+  /* height: 100% !important; */
+}
+
+.account-settings .user-profile {
+  margin: 0 0 1rem 0;
+  /* padding-bottom: 1rem; */
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.account-settings .user-profile .user-avatar {
+  margin: 0 0 1rem 0;
+  /*Bỏ lớp img thì uncomment mấy cái dưới rồi xóa class img ở dưới*/
+  /* width: 90%;
+    height: auto;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 50%; */
+  width: 10em;
+  height: 10em;
+}
+
+/* .account-settings .user-profile .user-avatar img {
+    width: 90%;
+    height: auto;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 50%;
+} */
+
+.account-settings .user-profile h5.user-name {
+  margin: 0 0 0.5rem 0;
+}
+
+.account-settings .user-profile h6.user-email {
+  margin: 0;
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: white !important;
+}
+
+.account-settings .about {
+  margin: 2rem 0 0 0;
+  text-align: center;
+}
+
+.account-settings .about h5 {
+  margin: 0 0 15px 0;
+  color: #007ae1;
+}
+
+.account-settings .about p {
+  font-size: 0.825rem;
+}
+
+.form-control {
+  border: 1px solid #cfd1d8;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  font-size: 0.825rem;
+  background: #ffffff;
+  color: #2e323c;
+}
+
+.card {
+  background: #ffffff;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border: 0;
+  height: 100% !important;
+  /* margin-bottom: 1rem; */
+}
+
+.editlink {
+  display: flex;
+  align-items: center;
+}
+
+.public-profile {
+  cursor: pointer;
+  width: 30%;
+  float: right;
+  background-color: #007ae1 !important;
+  color: white !important;
+  transition: color 1s step-start;
+  transition: background-color 1s ease-in-out;
+  border: none !important;
+  &:hover {
+    background-color: white !important;
+    color: #007ae1 !important;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+  }
+}
+
+.cancel-button {
+  cursor: pointer;
+  width: 10%;
+  background-color: #007ae1 !important;
+  color: white !important;
+  transition: color 1s step-start;
+  transition: background-color 1s ease-in-out;
+
+  &:hover {
+    background-color: white !important;
+    color: #007ae1 !important;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+  }
+}
+
+.update-button {
+  cursor: pointer;
+  width: 10%;
+  background-color: #4a785f !important;
+  color: white !important;
+  transition: color 1s step-start;
+  transition: background-color 1s ease-in-out;
+
+  &:hover {
+    background-color: white !important;
+    color: #4a785f !important;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+}
+.input-box{
+  transition: box-shadow 1s ease-in-out;
+  border-radius: 5px;
+
+  &:hover {
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+  }
+}
+input[type=text]:hover{
+  border-color: none;
+}

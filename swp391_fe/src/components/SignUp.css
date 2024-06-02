@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto:wght@300;400;900&display=swap");
+
+.register {
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 2rem 4rem;
+  gap: 2rem;
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.register .overlap-group-wrapper {
+  background-color: rgba(250, 250, 250, 1);
+  height: 100%;
+  overflow: hidden;
+  width: 100%;
+}
+
+.register .overlap-group {
+  height: 100vh;
+  position: relative;
+  width: 100vw;
+}
+
+.register .navbar {
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: rgba(234, 234, 234, 1);
+  height: 8.6vh;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.register .logo {
+  height: 5vh;
+  left: 2.6vw;
+  position: absolute;
+  /* top: 27px; */
+  width: 6vw;
+}
+
+.register .alemhelp {
+  color: rgba(0, 0, 0, 1);
+
+  font-size: 16px;
+  font-weight: 400;
+  height: 19px;
+  left: 40px;
+  letter-spacing: 0.8px;
+  line-height: normal;
+  position: absolute;
+  top: 9px;
+  white-space: nowrap;
+}
+
+.register .span {
+  font-weight: 900;
+}
+
+.register .icon {
+  height: 30px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 25px;
+}
+
+.register .group-btn {
+  height: 38px;
+  left: 83vw;
+  position: absolute;
+  /* top: 1.6vw;
+    width: 2.64vh; */
+}
+
+.register .button {
+  all: unset;
+  align-items: center;
+  background-color: #4a785f;
+  border-radius: 5px;
+  box-sizing: border-box;
+  display: inline-flex;
+  gap: 12px;
+  left: 0;
+  overflow: hidden;
+  padding: 12px 20px;
+  position: absolute;
+  top: 0;
+}
+
+.register .div {
+  color: rgba(255, 255, 255, 1);
+
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0.24px;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.register .text-wrapper-2 {
+  color: rgba(22, 130, 253, 1);
+
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0.24px;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.register .frame {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 40%;
+  height: 100%;
+}
+
+.register .join-alem-community {
+  color: #000000;
+
+  font-size: 24px;
+  font-weight: 900;
+  letter-spacing: 1.2px;
+  line-height: normal;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.register .p {
+  color: #000000;
+
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 0.9px;
+  line-height: 30px;
+
+  width: 100%;
+}
+
+.register .frame-2 {
+  width: 100%;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.register .group-2 {
+  height: 26px;
+  width: 330px;
+}
+
+.register .right-side-signup {
+  width: 100%;
+}
+
+.register .img {
+  object-fit: cover;
+}
+
+.register input {
+  height: 42px;
+}
+
+.input.name {
+  width: 11vw;
+}
+
+.frame-2 .name {
+  gap: 4rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.img-container {
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.register .text-wrapper-5 {
+  background-color: rgba(255, 255, 255, 1);
+  color: #808080;
+
+  font-size: 2vh;
+  /* font-size: 13px; */
+  font-weight: 300;
+  /* height: 15px;
+    left: 15px; */
+  letter-spacing: 0.26px;
+  line-height: normal;
+  /* position: absolute;
+    top: 13px; */
+  white-space: nowrap;
+}
+
+.button-resize {
+  margin-top: 2vh !important;
+  all: unset;
+  background-color: #4a785f !important;
+  border: none !important;
+  border-radius: 5px;
+  box-sizing: border-box;
+
+  font-size: 13px !important;
+  font-weight: 900 !important;
+  height: 6vh;
+  width: 100%;
+}
+
+.button-resize:hover {
+  background-color: #ffc500 !important;
+}
+
+.register .image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.invalid-feedback {
+  margin-top: 0 !important;
+}

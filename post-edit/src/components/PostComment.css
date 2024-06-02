@@ -1,0 +1,672 @@
+.PostComments{
+    width: 700px;
+     height: 100%;
+     flex-direction: 'column';
+      justify-Content: 'flex-start';
+       align-items: 'center';
+        gap: 20;
+         display: 'inline-flex';
+  }
+
+  /* Định dạng chung cho .PostFull */
+.PostFull {
+    width: 100%;
+    height: 570px;
+    padding: 40px;
+    background: white;
+    box-shadow: 2px 1px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    overflow: hidden;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  
+  /* Định dạng chung cho .Head */
+  .Head {
+    width: 645px;
+    height: 40px;
+    position: relative;
+  }
+  
+  /* Định dạng chung cho .Group5 */
+  .Group5 {
+    width: 123px;
+    height: 32px;
+    left: 55px;
+    top: 4px;
+    position: absolute;
+  }
+  
+  /* Định dạng chung cho .Time và .Nikcname trong .Group5 */
+  .Group5 .Time,
+  .Group5 .Nikcname {
+    position: absolute;
+    font-family: Roboto;
+    font-weight: 400px;
+    word-wrap: break-word;
+  }
+  
+  .Group5 .Time {
+    left: 0;
+    top: 20px;
+    color: #808080;
+    font-size: 10px;
+    letter-spacing: 0.5px;
+  }
+  
+  .Group5 .Nikcname {
+    left: 0;
+    top: 0;
+    color: black;
+    font-size: 13px;
+    letter-spacing: 0.65px;
+  }
+  
+  /* Định dạng chung cho .Ava */
+  .Ava {
+    width: 40px;
+    height: 40px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    border-radius: 9999px;
+  }
+  
+  /* Định dạng chung cho .FeatherMoreVertical */
+  .FeatherMoreVertical {
+    width: 24px;
+    height: 24px;
+    left: 621px;
+    top: 8px;
+    position: absolute;
+  }
+  
+  
+  /* Định dạng chung cho .HowToPatchKdeOnFreebsd */
+  .Content {
+    align-self: stretch;
+    color: black;
+    font-size: 18px;
+    font-family: Roboto;
+    font-weight: 700px;
+    word-wrap: break-word;
+  }
+  
+  
+  /* Định dạng chung cho .Code */
+  .Code {
+    padding: 10px 0;
+    background: #EAEAEA;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    display: flex;
+  }
+  
+  /* Định dạng chung cho .Group7 */
+  .Group7 {
+    width: 645px;
+    position: relative;
+    display: inline-flex;
+  }
+  
+  /* Định dạng chung cho .234567 */
+  .Group7 .No {
+    width: 60px;
+    text-align: center;
+    color: #857857;
+    font-size: 14px;
+    font-family: 'Droid Sans';
+    font-weight: 400px;
+    line-height: 18px;
+    letter-spacing: 0.28px;
+    word-wrap: break-word;
+  }
+  
+  /* Định dạng chung cho .PackageMianImportFmtFuncMainFmtPrintlnHelloWorld */
+  .Group7 .Program {
+    width: 605px;
+    color: black;
+    font-size: 14px;
+    font-family: 'Droid Sans';
+    font-weight: 400px;
+    line-height: 18px;
+    letter-spacing: 0.28px;
+    word-wrap: break-word;
+    text-align: left;
+  }
+  
+  /* Định dạng chung cho .PosuereArcuArcuConsecteturTurpisRhoncusTellusMassaConsecteturMassaSitFamesNullaEuVehiculaUllamcorperAnteSitMaurisElementumSollicitudinArcuSitSuspendissePretiumNislEgestasFringillaJustoBibendum */
+  .Content {
+    color: black;
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: 400px;
+    line-height: 25px;
+    word-wrap: break-word;
+    text-align: left;
+  }
+  
+  /* Định dạng chung cho .Submenu */
+  .Submenu {
+    width: 645px;
+    height: 38px;
+    position: relative;
+    background: white;
+  }
+  
+  /* Định dạng chung cho .Tags */
+  .Tags {
+    left: 0;
+    top: 4px;
+    position: absolute;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+  }
+  
+  /* Định dạng chung cho .Tag */
+  .Tag {
+    padding: 5px 10px;
+    background: #EAEAEA;
+    border-radius: 5px;
+    overflow: hidden;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+  }
+  
+  /* Định dạng chung cho .Java, .Javascript, và .Wtf */
+  .Java,
+  .Javascript,
+  .Wtf {
+    color: #808080;
+    font-size: 10px;
+    font-family: Roboto;
+    font-weight: 400px;
+    letter-spacing: 0.50px;
+    word-wrap: break-word;
+  }
+  
+  /* Định dạng chung cho .Button */
+  .Button {
+    height: 30px;
+    padding: 12px 20px;
+    background: #1682FD;
+    border-radius: 5px;
+    overflow: hidden;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2px;
+    display: inline-flex;
+    margin-left: 500px;
+  }
+  
+  /* Định dạng chung cho .ArrowUp */
+  .ArrowUp {
+    width: 13px;
+    height: 13px;
+    position: relative;
+  }
+  
+  /* Định dạng chung cho .Vector trong .ArrowUp */
+  .ArrowUp .Vector {
+    width: 2px;
+    height: 2px;
+    position: absolute;
+    border: 2px white solid;
+  }
+  
+  /* Định dạng chung cho .Vote */
+  .Vote {
+    color: white;
+    font-size: 12px;
+    font-family: Roboto;
+    font-weight: 900px;
+    letter-spacing: 0.24px;
+    word-wrap: break-word;
+  }
+  .Suggestions{
+    width: 100%; 
+    height: 70px;
+    margin-top: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+     color: '#808080'; 
+     font-size: 18px; 
+     font-family: 'Roboto'; 
+     font-weight: 500px; 
+     line-height: 25px; 
+     letter-spacing: 0.90px; 
+     word-wrap: break-word;
+  }
+
+  /*----------------------------------------------------*/
+  /* CSS cho SuggestBlock */
+.SuggestBlock {
+    width: 100%;
+    height: 143px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: white;
+    box-shadow: 2px 1px 5px rgba(0, 0, 0, 0.15);
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    gap: 10px;
+    display: inline-flex;
+  }
+  
+  
+  /* CSS cho TypeHereYourWiseSuggestion */
+  .TypeHereYourWiseSuggestion {
+    color: #808080;
+    font-size: 12px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    letter-spacing: 0.24px;
+    word-wrap: break-word;
+    text-align: left;
+    width: 100%;
+    height: 50px;
+  }
+  
+  /* CSS cho Frame3 */
+  .Frame3 {
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+  }
+  
+  /* CSS cho Button */
+  .ButtonSg {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 5px;
+    overflow: hidden;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+    display: flex;
+    background: #F48023;
+  }
+  
+  /* CSS cho Cancel */
+  .Cancel {
+    border-left: 20px;
+    border-right: 20px;
+    border-top: 12px;
+    border-bottom: 12px;
+    border-color: #808080;
+    font-size: 12px;
+    font-family: 'Roboto';
+    font-weight: 400px;
+    letter-spacing: 0.24px;
+    word-wrap: break-word;
+  }
+  
+  /* CSS cho MessageSquare */
+  .MessageSquare {
+    width: 13px;
+    height: 13px;
+    position: relative;
+  }
+  
+  /* CSS cho Vector */
+  .Vector {
+    width: 9.75px;
+    height: 9.75px;
+    left: 1.62px;
+    top: 1.62px;
+    position: absolute;
+    border: 1px white solid;
+  }
+  
+  /* CSS cho Suggest */
+  .Suggest {
+    color: white;
+    font-size: 12px;
+    font-family: 'Roboto';
+    font-weight: 900px;
+    letter-spacing: 0.24px;
+    word-wrap: break-word;
+  }
+
+  /*---------------------------------------------------*/
+  .LevelComment1 {
+    width: 100%;
+    height: 200px;
+    background: white;
+    margin-top: 50px;
+    box-shadow: 2px 1px 5px rgba(0, 0, 0, 0.15);
+    display: inline-flex;
+    align-items: flex-start;
+  }
+  
+  .Indicator1 {
+    width: 5px;
+    height: 200px;
+    align-self: stretch;
+    opacity: 0.5;
+    background: #F48023;
+  }
+  
+  .Content1 {
+    width: 100%;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  
+  .Head1 {
+    width: 640px;
+    height: 32px;
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .Ava1 {
+    width: 30px;
+    height: 30px;
+    left: 0;
+    top: 1px;
+    position: absolute;
+    background: linear-gradient(0deg, #C4C4C4 0%, #C4C4C4 100%);
+    border-radius: 9999px;
+  }
+  
+  .NameTime1 {
+    left: 40px;
+    top: 0;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 5px;
+  }
+  
+  .Nikcname1 {
+    color: black;
+    font-size: 13px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    letter-spacing: 0.65px;
+    word-wrap: break-word;
+  }
+  
+  .Time1 {
+    color: #808080;
+    font-size: 10px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    letter-spacing: 0.50px;
+    word-wrap: break-word;
+  }
+  
+  .FeatherMoreVertical1 {
+    width: 18px;
+    height: 18px;
+    left: 622px;
+    top: 7px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .Text1 {
+    align-self: stretch;
+    color: black;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    line-height: 25px;
+    letter-spacing: 0.70px;
+    word-wrap: break-word;
+    text-align: left;
+  }
+  
+  .Bottom1 {
+    align-self: stretch;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+  }
+  
+  .Line1 {
+    align-self: stretch;
+    height: 0;
+    border: 1px #EAEAEA solid;
+  }
+  
+  .Dlr1 {
+    width: 640px;
+    height: 23px;
+    position: relative;
+    display: flex;
+  }
+  
+  .LikesDislikes1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .Dislikes1 {
+    width: 40px;
+    height: 14px;
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .ThumbsUp1 {
+    width: 14px;
+    height: 14px;
+    left: 0;
+    top: 0;
+    position: absolute;
+  }
+  
+  .Likes1 {
+    width: 33px;
+    height: 14px;
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .ThumbsDown1 {
+    width: 14px;
+    height: 14px;
+    left: 0;
+    top: 0;
+    position: absolute;
+  }
+  
+  .Frame1 {
+    left: 436px;
+    top: 0;
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .SeeReplies1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 5px;
+    display: flex;
+  }
+  
+  .ChevronsDown1 {
+    width: 14px;
+    height: 14px;
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .ShowAllReplies1 {
+    color: #1682FD;
+    font-size: 12px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    letter-spacing: 0.24px;
+    word-wrap: break-word;
+  }
+  
+  .Replly1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+    display: flex;
+  }
+  
+  .CornerDownRight1 {
+    width: 14px;
+    height: 14px;
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .Reply1 {
+    color: #1682FD;
+    font-size: 12px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    letter-spacing: 0.24px;
+    word-wrap: break-word;
+  }
+  
+  /*-----------------------------------------------------------------*/
+  .LevelComment2 {
+    width: 100%;
+    height: 130px;
+    background: white;
+    margin-top: 50px;
+    box-shadow: 2px 1px 5px rgba(0, 0, 0, 0.15);
+    display: inline-flex;
+    align-items: flex-start;
+    
+  }
+  
+  .Indicator2 {
+    width: 10px;
+    height: 128px;
+    align-self: stretch;
+    opacity: 0.50;
+    background: #1682FD;
+  }
+  
+  .Content2 {
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    display: inline-flex;
+  }
+  
+  
+  .Bottom2 {
+    align-self: stretch;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+  }
+  
+  .Line2 {
+    align-self: stretch;
+    height: 0;
+    border: 1px #EAEAEA solid;
+  }
+  
+  .Dlr2 {
+    width: 635px;
+    height: 26px;
+    position: relative;
+  }
+  
+  .Replly2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    left: 586px;
+    top: 1px;
+    position: absolute;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+    display: inline-flex;
+  }
+  
+  .CornerDownRight2 {
+    width: 14px;
+    height: 14px;
+    position: relative;
+  }
+  
+  .Reply2 {
+    color: #1682FD;
+    font-size: 12px;
+    font-family: Roboto;
+    font-weight: 300;
+    letter-spacing: 0.24;
+    word-wrap: break-word;
+  }
+  
+  .Frame2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    left: 0;
+    top: 1px;
+    position: absolute;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+  }
+  
+  .Nikcname2 {
+    color: #808080;
+    font-size: 13px;
+    font-family: Roboto;
+    font-weight: 500;
+    letter-spacing: 0.65;
+    word-wrap: break-word;
+  }

@@ -1,0 +1,188 @@
+#nav{
+    border-top: 0px;
+    border-bottom: 0px;
+    width: 100%;
+    height: 84px;
+    position: relative;
+    background: white;
+    border: 1px #EAEAEA solid;
+  
+  }
+  
+  .Logo {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: inline-flex;
+    align-items: flex-start;
+  }
+  
+  .Alemhelp {
+    left: 2vw;
+    top: 9px;
+    position: absolute;
+  }
+  
+  .Alemhelp span:first-child {
+    color: black;
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    letter-spacing: 0.80px;
+    word-wrap: break-word;
+  }
+  
+  .Alemhelp span:last-child {
+    color: black;
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-weight: 900;
+    letter-spacing: 0.80px;
+    word-wrap: break-word;
+  }
+  
+  .Icon {
+    width: 25px;
+    height: 29.60px;
+    left: 0;
+    top: 29.60px;
+    position: absolute;
+  }
+  
+  .logo{
+    width: 100px;
+    height: auto;
+  }
+  
+  .TitleNav {
+    left: 30vw;
+    top: 31px;
+    position: absolute;
+    color: #808080;
+    font-size: 18px;
+    font-family: 'Roboto';
+    font-weight: 900;
+    text-transform: capitalize;
+    letter-spacing: 0.90px;
+    word-wrap: break-word;
+  }
+  
+  .Profile {
+    width: 70.93px;
+    height: 50px;
+    left: 95vw;
+    top: 17px;
+    position: absolute;
+  }
+  
+  .ProfilePic {
+    width: 50px;
+    height: 50px;
+    left: -45px;
+    top: 0;
+    position: absolute;
+    border-radius: 100px;
+    border: 1px white solid;
+  }
+
+  .arrow{
+    left: 90vw;
+  }
+
+  
+  .Notificatios {
+    width: 12vw;
+    height: 31vh;
+    left: 89vw;
+    top: 23px;
+    position: absolute;
+  }
+  
+  .Bell {
+    width: 24px;
+    height: 24px;
+    left: 0;
+    top: 7px;
+    position: absolute;
+  }
+  
+  .GroupNav {
+    width: 18px;
+    height: 20px;
+    left: 3px;
+    top: 2px;
+    position: absolute;
+  }
+  
+  .Ellipse1 {
+    width: 15px;
+    height: 15px;
+    left: 9px;
+    top: 0;
+    position: absolute;
+    background: #1682FD;
+    border-radius: 50%;
+    border: 2px white solid;
+  }
+  
+  .ButtonNav {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    left: 78vw;
+    top: 23px;
+    position: absolute;
+    background: #F48023;
+    border-radius: 5px;
+    overflow: hidden;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+    display: inline-flex;
+  }
+  
+  .PlusCircle {
+    width: 13px;
+    height: 13px;
+    position: relative;
+  }
+  
+  .AskAQuestion {
+    color: white;
+    font-size: 12px;
+    font-family: 'Roboto';
+    font-weight: 900;
+    letter-spacing: 0.24px;
+    word-wrap: break-word;
+  }
+  
+  .Karma {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    left: 95vw;
+    top: 17px;
+    position: absolute;
+    background: #F48023;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px white solid;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+  }
+  
+  .Karma div {
+    width: 6px;
+    height: 11px;
+    text-align: center;
+    color: white;
+    font-size: 10px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    letter-spacing: 0.50px;
+    word-wrap: break-word;
+  }

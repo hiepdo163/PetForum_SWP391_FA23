@@ -1,0 +1,702 @@
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto:wght@300;400;500;900&display=swap");
+.PostComments {
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  gap: 0.5rem;
+  display: inline-flex;
+  padding-bottom: 2rem;
+}
+
+/* Định dạng chung cho .PostFull */
+.PostFull {
+  width: 100%;
+  height: auto;
+  padding: 5%;
+  background: white;
+  box-shadow: 2px 1px 5px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  overflow: hidden;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 2vh;
+}
+
+/* Định dạng chung cho .Head */
+.Head {
+  width: 100%;
+  height: 10%;
+  align-items: center;
+  display: flex;
+}
+
+/* Định dạng chung cho .Group5 */
+.Group5 {
+  width: 50%;
+  height: 100%;
+  margin-left: 2%;
+}
+
+/* Định dạng chung cho .Time và .Nikcname trong .Group5 */
+.Group5 .Time,
+.Group5 .Nikcname {
+  font-weight: 700;
+  word-wrap: break-word;
+  text-align: left;
+  cursor: pointer;
+  &:hover {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+}
+
+.Group5 .Time {
+  color: #808080;
+  font-size: 0.8em;
+  letter-spacing: 0.01em;
+}
+
+.Group5 .Nikcname {
+  color: black;
+  font-size: 1em;
+  letter-spacing: 0.05em;
+}
+
+/* Định dạng chung cho .Ava */
+.Ava {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 25%;
+  object-fit: cover;
+}
+
+/* Định dạng chung cho .FeatherMoreVertical */
+.FeatherMoreVertical {
+  width: auto;
+  height: 50%;
+  margin-left: 40%;
+
+}
+
+.Menu {
+  width: 15%;
+  height: auto;
+  background: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 5px;
+  float: right;
+  position: relative;
+  z-index: 100;
+}
+.Menu > *{
+  padding: 10%;
+}
+.Menu >*:hover{
+  border-radius: 5px;
+  background-color: #4a785f;
+  color: #fff;
+  font-weight: 600;
+}
+
+.Title {
+  width: 100%;
+  height: 5%;
+  margin-top: 2%;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  color: #000000;
+  font-size: 2em;
+  /*change*/
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  word-wrap: break-word;
+}
+
+/* Định dạng chung cho .HowToPatchKdeOnFreebsd */
+.Content {
+  align-self: stretch;
+  color: black;
+  font-size: 1.1em;
+  /*change*/
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+/* Định dạng chung cho .Code */
+.Code {
+  width: 90%;
+  padding: 1vh 0;
+  background: #eaeaea;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1vh;
+  display: inline-flex;
+}
+
+/* Định dạng chung cho .Group7 */
+.Group7 {
+  width: 80%;
+  display: inline-flex;
+}
+
+/* Định dạng chung cho .234567 */
+.Group7 .No {
+  width: 10%;
+  text-align: center;
+  color: #857857;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.14em;
+  letter-spacing: 0.02em;
+  word-wrap: break-word;
+}
+
+/* Định dạng chung cho .PackageMianImportFmtFuncMainFmtPrintlnHelloWorld */
+.Group7 .Program {
+  width: 90%;
+  color: black;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.14em;
+  letter-spacing: 0.02em;
+  word-wrap: break-word;
+  text-align: left;
+}
+
+/* Định dạng chung cho .PosuereArcuArcuConsecteturTurpisRhoncusTellusMassaConsecteturMassaSitFamesNullaEuVehiculaUllamcorperAnteSitMaurisElementumSollicitudinArcuSitSuspendissePretiumNislEgestasFringillaJustoBibendum */
+.Content {
+  color: black;
+  font-size: 1em;
+  /*change*/
+  font-weight: 400;
+  line-height: 1.5em;
+  word-wrap: break-word;
+  text-align: left;
+}
+
+/* Định dạng chung cho .Submenu */
+.Submenu {
+  width: 100%;
+  height: 15%;
+  background: white;
+  display: flex;
+}
+
+.TagsComment {
+  width: 75%;
+}
+.VoteButton{
+  padding: 15px;
+  transition: box-shadow 0.5s ease-in-out;
+  &:hover{
+    background-color: #4a785f !important;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+.VoteButton:hover{
+
+}
+}
+.ArrowUp{
+
+}
+
+/* Định dạng chung cho .Tag */
+.Tag {
+  background: #eaeaea;
+  border-radius: 20%;
+  overflow: hidden;
+}
+
+/* Định dạng chung cho .Java, .Javascript, và .Wtf */
+.Cate{
+  color: #808080;
+  font-size: 1em;
+  /*change*/
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  word-wrap: break-word;
+  text-decoration: none;
+}
+
+/* Định dạng chung cho .Button */
+.Button {
+  height: 50%;
+  display: flex !important;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+  margin-right: 12px;
+}
+
+/* Định dạng chung cho .ArrowUp */
+.ArrowUp {
+  width: auto;
+  height: 100%;
+}
+
+/* Định dạng chung cho .Vote */
+.Vote {
+  color: white;
+  font-size: 1.5em;
+  /*change*/
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  word-wrap: break-word;
+  padding: 1rem;
+  padding-left: 0;
+}
+.Suggestions {
+  width: 100%;
+  height: 4vh;
+  text-align: center;
+  color: #808080;
+  font-size: 1.4em;
+  /*change*/
+  font-weight: 900;
+  line-height: 2em;
+  letter-spacing: 0.05em;
+  word-wrap: break-word;
+}
+/*----------------------------------------------------*/
+/* CSS cho SuggestBlock */
+#SuggestBlock {
+  width: 100%;
+  height: 30vh;
+  background: white;
+  box-shadow: 2px 1px 5px rgba(0, 0, 0, 0.15);
+}
+
+.ctrl-reply {
+  display: flex;
+  align-items: center;
+  font-size: 1.1em;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  word-wrap: break-word;
+  justify-content: center;
+}
+
+.tox {
+  height: 80% !important;
+  width: 100% !important;
+}
+
+/* CSS cho Frame3 */
+.Frame3 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 20%;
+  margin-right: 2em;
+}
+
+/* CSS cho Button */
+.ButtonSg:last-child {
+  overflow: hidden;
+  gap: 0.5em;
+  background-color: #f48023;
+  border-color: unset;
+  color: #fff;
+}
+
+/* CSS cho Cancel */
+.Cancel {
+  color: #808080;
+  font-size: 1em;
+  /*change*/
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  word-wrap: break-word;
+}
+
+/* CSS cho MessageSquare */
+.MessageSquare {
+  width: auto;
+  height: 100%;
+}
+/* CSS cho Suggest */
+.Suggest {
+  color: white;
+  font-size: 1em;
+  /*change*/
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  word-wrap: break-word;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.5em;
+}
+
+/*---------------------------------------------------*/
+.LevelComment1 {
+  width: 100%;
+  background: white;
+  box-shadow: 2px 1px 5px rgba(0, 0, 0, 0.15);
+  display: inline-flex;
+  align-items: flex-start;
+}
+
+/*.Indicator1 {
+  width: 1%;
+  align-self: stretch;
+  opacity: 0.5;
+  background: #f48023;
+}*/
+
+.Content1 {
+  width: 99%;
+  padding: 2vw 3vh;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.Head1 {
+  width: 100%;
+  height: 7vh;
+  align-items: center;
+}
+
+.Ava1 {
+  width: 3.5em;
+  height: 3.5em;
+  background: linear-gradient(0deg, #c4c4c4 0%, #c4c4c4 100%);
+  border-radius: 25%;
+  object-fit: cover;
+  float: left;
+}
+
+.NameTime1 {
+  width: 50%;
+  flex-direction: column;
+  text-align: left;
+  gap: 1vh;
+  margin-left: 2%;
+  float: left;
+}
+
+.Nikcname1 {
+  color: black;
+  font-size: 1em;
+  /*change*/
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  word-wrap: break-word;
+}
+
+.Time1 {
+  color: #808080;
+  font-size: 0.9em;
+  /*change*/
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  word-wrap: break-word;
+}
+
+.FeatherMoreVertical1 {
+  width: auto;
+  height: 50%;
+  float: right;
+}
+
+.Text1 {
+  align-self: stretch;
+  color: black;
+  font-size: 1em;
+  /*change*/
+  font-weight: 400;
+  line-height: 1.2em;
+  letter-spacing: 0.03em;
+  word-wrap: break-word;
+  text-align: left;
+}
+
+.Bottom1 {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: inline-flex;
+  height: 20%;
+}
+
+.Line1 {
+  align-self: stretch;
+  height: 0;
+  width: 100%;
+  border: 0.2vh #eaeaea solid;
+}
+
+.Dlr1 {
+  width: 100%;
+  height: 15%;
+}
+
+.LikesDislikes {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2vh;
+  float: left;
+  width: 18%;
+  height: 100%;
+}
+
+.Dislikes1 {
+  width: 50%;
+  height: 100%;
+  margin-left: 5%;
+}
+.Dislikes1 div {
+  color: #808080;
+  font-size: 1em;
+  /*change*/
+  font-weight: 300;
+  letter-spacing: 0.02em;
+  word-wrap: break-word;
+}
+
+.ThumbsUp1 {
+  width: auto;
+  height: 50%;
+}
+
+.Likes1 {
+  width: 50%;
+  height: 100%;
+}
+
+.Likes1 div {
+  color: #808080;
+  font-size: 1em;
+  /*change*/
+  font-weight: 300;
+  letter-spacing: 0.02em;
+  word-wrap: break-word;
+}
+
+.ThumbsDown1 {
+  width: auto;
+  height: 50%;
+}
+
+.Frame1 {
+  display: inline-flex;
+  justify-content: flex-end;
+  gap: 2vh;
+  float: right;
+  height: 100%;
+  width: 40%;
+}
+
+.SeeReplies1 {
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1vh;
+  display: inline-flex;
+  width: 50%;
+  height: 100%;
+}
+
+.ChevronsDown1 {
+  width: auto;
+  height: 50%;
+  display: inline-flex;
+  align-items: center;
+}
+
+.ShowAllReplies1 {
+  color: #1682fd;
+  font-size: 0.8em;
+  /*change*/
+  font-weight: 300;
+  letter-spacing: 0.02em;
+  word-wrap: break-word;
+}
+
+.Replly1 {
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1vh;
+  display: inline-flex;
+  width: 30%;
+  height: 100%;
+}
+
+.CornerDownRight1 {
+  width: auto;
+  height: 50%;
+  display: inline-flex;
+  align-items: center;
+}
+
+.Reply1 {
+  color: #1682fd;
+  font-size: 1em;
+  /*change*/
+  font-weight: 300;
+  letter-spacing: 0.02em;
+  word-wrap: break-word;
+}
+
+/*-----------------------------------------------------------------*/
+.LevelComment2 {
+  width: 95%;
+  background: white;
+  box-shadow: 2px 1px 5px rgba(0, 0, 0, 0.15);
+  display: inline-flex;
+  align-items: flex-start;
+  margin-left: 5%;
+  margin-top: 0.5%;
+}
+
+/*.Indicator2 {
+  width: 1%;
+  align-self: stretch;
+  opacity: 0.5;
+  background: #1682fd;
+}*/
+
+.Content2 {
+  width: 99%;
+  padding: 2vw 3vh;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1vh;
+  display: inline-flex;
+}
+
+.Text2 {
+  text-align: left;
+}
+
+.Text2 span:first-child {
+  color: black;
+  font-size: 1em;
+  /*change*/
+  font-weight: 500;
+  letter-spacing: 0.07em;
+  word-wrap: break-word;
+}
+.Text2 span:last-child {
+  color: black;
+  font-size: 1em;
+  /*change*/
+  font-weight: 300;
+  letter-spacing: 0.07em;
+  word-wrap: break-word;
+}
+
+.Bottom2 {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: inline-flex;
+  height: 20%;
+}
+
+.Line2 {
+  align-self: stretch;
+  height: 0;
+  width: 100%;
+  border: 0.2vh #eaeaea solid;
+}
+
+.Dlr2 {
+  width: 100%;
+  height: 20%;
+}
+
+.Replly2 {
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1vh;
+  display: inline-flex;
+  float: right;
+  height: 100%;
+}
+
+.CornerDownRight2 {
+  width: auto;
+  height: 50%;
+}
+
+.Reply2 {
+  color: #1682fd;
+  font-size: 1em;
+  /*change*/
+  font-weight: 300;
+  letter-spacing: 0.02em;
+  word-wrap: break-word;
+}
+
+.Frame2 {
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2vh;
+  display: inline-flex;
+  height: 100%;
+  float: right;
+}
+
+.Nikcname2 {
+  color: #808080;
+  font-size: 1em;
+  /*change*/
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  word-wrap: break-word;
+}
+
+.ReplyForm {
+  width: 80%;
+  height: 70%;
+  max-height: 200px;
+  float: right;
+  display: flex;
+  justify-content: end;
+  position: static;
+}
+
+.ReplyForm .tox {
+  min-height: 200px;
+}
+
+.ReplyForm Button {
+  height: 25%;
+  align-items: center;
+  border: none;
+}
+
+.ReplyForm Button:hover {
+  background-color: #4a785f;
+}
+
+.popup-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}

@@ -1,0 +1,251 @@
+/* Định dạng phần nền của Col */
+.SideBar {
+    background: white;
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 310px;
+    height: 100%;
+    /* Định dạng MenuItem */
+    .MenuItem {
+      width: 310px;
+      height: 41px;
+      position: relative;
+      background: white;
+      /* Định dạng phần Search */
+      .Search1 {
+        width: 18px;
+        height: 18px;
+        left: 50px;
+        top: 11px;
+        position: absolute;
+      }
+      /* Định dạng phần chữ "Search" */
+      .Search2 {
+        left: 80px;
+        top: 13px;
+        position: absolute;
+        color: black;
+        font-size: 13px;
+        font-family: "Roboto";
+        font-weight: 500;
+        letter-spacing: 0.65px;
+        word-wrap: break-word;
+      }
+    }
+    /* Định dạng Sideblock */
+    .Sideblock1 {
+      height: 167px;
+      left: 0;
+      top: 50px;
+      position: relative;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      gap: 10px;
+      display: inline-flex;
+      .Title {
+        color: #808080;
+        font-size: 12px;
+        padding-left: 50px;
+        font-family: "Roboto";
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 0.24px;
+        word-wrap: break-word;
+      }
+      .MenuItem {
+        width: 310px;
+        height: 41px;
+        position: relative;
+        background: white;
+        /* Định dạng List */
+        .List {
+          width: 18px;
+          height: 18px;
+          left: 50px;
+          top: 11px;
+          position: absolute;
+        }
+        /* Định dạng chữ "Questions" */
+        .Questions {
+          left: 80px;
+          top: 13px;
+          position: absolute;
+          color: black;
+          font-size: 13px;
+          font-family: "Roboto";
+          font-weight: 500;
+          letter-spacing: 0.65px;
+          word-wrap: break-word;
+        }
+        /* Định dạng Tag */
+        .Tag {
+          width: 18px;
+          height: 18px;
+          left: 50px;
+          top: 11px;
+          position: absolute;
+        }
+        /* Định dạng chữ "Tags" */
+        .Tags {
+          left: 80px;
+          top: 13px;
+          position: absolute;
+          color: black;
+          font-size: 13px;
+          font-family: "Roboto";
+          font-weight: 500;
+          letter-spacing: 0.65px;
+          word-wrap: break-word;
+        }
+        /* Định dạng Award */
+        .Award {
+          width: 18px;
+          height: 18px;
+          left: 50px;
+          top: 11px;
+          position: absolute;
+        }
+        /* Định dạng chữ "Ranking" */
+        .Ranking {
+          left: 80px;
+          top: 13px;
+          position: absolute;
+          color: black;
+          font-size: 13px;
+          font-family: "Roboto";
+          font-weight: 500;
+          letter-spacing: 0.65px;
+          word-wrap: break-word;
+        }
+      }
+      .MenuItem:hover {
+        background: bisque;
+        :last-child{
+          color: #f48023;
+          font-weight: 700;
+        };
+        :first-child{
+          .Vector{
+            color:#f48023;
+          }
+        }
+      }
+    }
+    /* Định dạng phần PERSONAL NAVIGATOR */
+    .Sideblock2 {
+      height: 167px;
+      left: 0;
+      top: 100px;
+      position: relative;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      gap: 10px;
+      display: inline-flex;
+      /* Định dạng Title "PERSONAL NAVIGATOR" */
+      .Title {
+        color: #808080;
+        font-size: 12px;
+        padding-left: 50px;
+        font-family: "Roboto";
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 0.24px;
+        word-wrap: break-word;
+      }
+  
+      /* Định dạng MenuItem */
+      .MenuItem {
+        width: 310px;
+        height: 41px;
+        position: relative;
+        background: white;
+  
+        /* Định dạng phần HelpCircle */
+        .HelpCircle {
+          width: 18px;
+          height: 18px;
+          left: 50px;
+          top: 11px;
+          position: absolute;
+        }
+        /* Định dạng chữ "Your questions" */
+        .YourQuestions {
+          left: 80px;
+          top: 13px;
+          position: absolute;
+          color: black;
+          font-size: 13px;
+          font-family: "Roboto";
+          font-weight: 500;
+          letter-spacing: 0.65px;
+          word-wrap: break-word;
+        }
+        /* Định dạng phần MessageCircle */
+        .MessageCircle {
+          width: 18px;
+          height: 18px;
+          left: 50px;
+          top: 11px;
+          position: absolute;
+        }
+        /* Định dạng chữ "Your answers" */
+        .YourAnswers {
+          left: 80px;
+          top: 13px;
+          position: absolute;
+          color: black;
+          font-size: 13px;
+          font-family: "Roboto";
+          font-weight: 500;
+          letter-spacing: 0.65px;
+          word-wrap: break-word;
+        }
+        /* Định dạng phần Heart */
+        .Heart {
+          width: 18px;
+          height: 18px;
+          left: 50px;
+          top: 11px;
+          position: absolute;
+        }
+        /* Định dạng chữ "Your likes & votes" */
+        .YourLikesVotes {
+          left: 80px;
+          top: 13px;
+          position: absolute;
+          color: black;
+          font-size: 13px;
+          font-family: "Roboto";
+          font-weight: 500;
+          letter-spacing: 0.65px;
+          word-wrap: break-word;
+        }
+      }
+      .MenuItem:hover {
+        background: bisque;
+        :last-child{
+          color: #f48023;
+          font-weight: 700;
+        };
+        :first-child{
+          .Vector{
+            color:#f48023;
+          }
+        }
+      }
+    }
+    .MenuItem:hover {
+      background: bisque;
+      :last-child{
+        color: #f48023;
+        font-weight: 700;
+      };
+      :first-child{
+        .Vector{
+          color:#f48023;
+        }
+      }
+    }
+  }

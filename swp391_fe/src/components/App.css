@@ -1,0 +1,46 @@
+.navbar {
+    background-color: #00ff00;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+  }
+  
+  .navbar input[type='text'] {
+    width: 60%;
+    height: 30px;
+  }
+  
+  .navbar .ask-button {
+    width: 120px;
+    height: 30px;
+    background-color: #0000ff;
+    color: white;
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  .content, .sidebar {
+    padding: 15px;
+  }
+  
+  .sidebar {
+    background-color: #f0f0f0;
+    border: solid #d0d0d0;
+  }
+  
+  .content h2, .sidebar h2 {
+    font-size: 18px;
+  }
+  
+  .question h3 {
+    font-size: 16px;
+  }
+  
+  .question p {
+    font-size: 14px;
+  }
+  

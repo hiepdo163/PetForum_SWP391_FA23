@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto:wght@300;400;500;900&display=swap");
+/* RightPanel styles */
+.Post-author {
+  width: 100%;
+  height: fit-content;
+  padding: 4rem;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 4rem;
+  display: inline-flex;
+  background-color: #fff;
+  box-shadow: 2px 1px 5px rgba(0, 0, 0, 0.15);
+}
+
+/* Rectangle1 styles */
+.Rectangle1 {
+  border-radius: 25%;
+  width: 10rem;
+  height: 10rem;
+  object-fit: cover;
+}
+
+/* Golanginya styles */
+.Nick-name {
+  color: black;
+  font-size: 1.5em;
+  /*change*/
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  word-wrap: break-word;
+  cursor: pointer;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+/* Line3 styles */
+.Line3 {
+  align-self: stretch;
+  height: 0.02vh;
+  border: 1px #eaeaea solid;
+}
+
+.profile-stars{
+  width: 100%;
+  color: #faba03;
+  padding: 7px 0;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.profile-stars > i {
+  margin-left: -2px;
+}
+
+.profile-since{
+  width: 100%;
+  text-align: center;
+  margin-top: -5px;
+  font-size: 1.5em;
+}
+
+#progressbar{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 1.5em;
+}
+#main-box-child {
+  margin: 10px;
+  width: 100%;
+}
+
+.Related-threads {
+  width: 100%;
+  height: fit-content;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.5rem;
+  background: none;
+  display: inline-flex;
+  margin-top: 2em;
+  padding: 0.5em;
+}
+
+/*===================================================*/
+.post-teaser-rl {
+  align-items: flex-start;
+  background-color: #ffffff;
+  border: 1px solid rgba(234, 234, 234, 1);
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 15px;
+  width: 100%;
+}
+
+.head-rl {
+  display: flex;
+  width: 70%;
+  justify-content: start;
+  align-items: center;
+}
+
+.user-info-rl {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.time-rl {
+  color: rgba(128, 128, 128, 1);
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  white-space: normal;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.nickname-rl {
+  color: #000000;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 0.65px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.avt {
+  width: 2em;
+  height: 2em;
+  border-radius: 25%;
+  object-fit: cover;
+}
+
+.textblock-rl {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  margin: 0.5em;
+}
+
+.post-title-rl {
+  color: #000000;
+  text-decoration: none;
+  font-size: 1.3em;
+  font-weight: 700;
+  letter-spacing: 0.7px;
+  line-height: normal;
+  margin-top: -1px;
+  white-space: nowrap;
+  width: fit-content;
+  margin-bottom: 0;
+}
+
+.submenu-rl {
+  display: flex;
+  background-color: transparent;
+  height: 22px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.activity-rl {
+  display: flex;
+  width: 30%;
+}
+
+.group-2-rl {
+  height: 15px;
+  /* position: relative; */
+  width: 43px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.reaction-rl {
+  color: rgba(128, 128, 128, 1);
+
+  font-size: 13px;
+  font-weight: 400;
+  height: 15px;
+  left: 18px;
+  letter-spacing: 0.39px;
+  line-height: normal;
+  top: 0;
+  white-space: nowrap;
+}

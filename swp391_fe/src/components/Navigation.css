@@ -1,0 +1,34 @@
+.breadcrumb {
+  margin-bottom: 0px !important;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  content: var(--bs-breadcrumb-divider, " > ") !important;
+}
+
+.breadcrumb-item a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: medium;
+}
+
+.breadcrumb-item a:hover {
+  color: #4a785f;
+  text-decoration: underline;
+}
+
+/* .navi-container {
+width: 100vw;
+height: 10vh;
+margin-top: 11vh;
+
+} */
+.navi-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: transparent;
+}

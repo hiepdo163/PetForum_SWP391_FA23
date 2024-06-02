@@ -1,0 +1,30 @@
+/* Đặt các quy tắc CSS cho PostEdit */
+.PostView {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: #fafafa;
+  }
+  
+  /*-------------------------------------------------*/
+
+
+  #row2{  
+    border-top:0px;
+    display: inline-flex;
+  }
+  
+  
+  /* Style for the PostComments column */
+  .MainLayout {
+    width: 100%;
+    height: 100%;
+    align-items: flex-start;
+    gap: 20;
+    display: flex;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border: 0px;
+  }

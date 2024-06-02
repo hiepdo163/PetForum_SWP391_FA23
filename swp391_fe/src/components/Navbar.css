@@ -1,0 +1,127 @@
+.page-container {
+  position: relative;
+  height: 24vh;
+  width: 100%;
+  background-image: url("../img/head-banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+.containers {
+  position: sticky;
+  top: 14vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 10vh;
+  background-color: rgba(35, 35, 36, 0.5);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: background-color 0.3s ease;
+  z-index: 50;
+}
+
+#nav.scrolled {
+  position: fixed;
+  background-color: #232324;
+  top: 0;
+}
+
+.logo_style {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 7vw;
+  height: auto;
+  object-fit: contain;
+}
+
+.Navbar-right-side {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.Ellipse1 {
+  padding-bottom: 30px;
+  margin-left: -15px;
+}
+
+.TitleNav {
+  flex-shrink: 1 !important;
+}
+
+.ButtonNav {
+  align-items: center;
+  padding: 0 10px;
+  width: auto;
+  height: 5vh;
+  background-color: #fff !important;
+  color: #232324 !important;
+  border: none !important;
+}
+
+.ButtonNav:hover {
+  background-color: #4a785f !important;
+  color: #fff !important;
+  border: 2px solid #4a785f;
+}
+
+.Content-User {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 10px;
+}
+
+.navbar-nav {
+  align-items: center;
+}
+
+.ButtonNav,
+.Notificatios,
+.Profile {
+  margin-right: 20px;
+}
+
+.Notificatios {
+  display: flex;
+  align-items: center;
+}
+
+.ProfilePic {
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 576px) {
+  /* .containers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+  */
+  .logo {
+    width: auto;
+    height: 7vh;
+  }
+
+  /*
+  .Content-User {
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+  }
+  .Navbar-right-side {
+    display: none;
+  } */
+}

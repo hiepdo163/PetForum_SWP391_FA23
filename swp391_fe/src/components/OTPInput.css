@@ -1,0 +1,37 @@
+.otp-container {
+    width: 30vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .otp-container h1,
+  .otp-container h2 {
+    text-align: left !important;
+  }
+  
+  .otp-container form {
+    display: flex;
+    justify-content: space-between;
+    width: 90;
+    padding: 10px;
+  }
+  
+  .otp-container input {
+    width: 20%;
+    padding: 5px;
+    font-size: large;
+  }
+  .number-format{
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+  }
+  .submit-format{
+    border-radius: 10px;
+  }
+  

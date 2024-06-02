@@ -1,0 +1,57 @@
+/* h1 {
+    font-size: 3em !important;
+} */
+.checkout-container {
+  min-width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section {
+  padding: 2em;
+}
+
+.trade-post header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.trade-post body {
+  display: flex;
+}
+
+.address-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.btnAddAddress {
+  border: "1px solid orange";
+}
+
+.payment-change {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.amount {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+}
+
+.amount-confirm {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  padding: 12px 0;
+}
